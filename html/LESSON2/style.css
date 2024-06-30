@@ -1,0 +1,24 @@
+body {
+    background-image: url("img/ghg.jpg");
+    background-repeat: no-repeat; /* сурот кайталанбайт */
+    background-size: cover; /* Сурот полный экранга чойулат*/
+    display: flex; /*рамкаларды сентирге алыпкелипкоёт*/
+     justify-content: center;
+    align-items: center;
+    height: 100vh; /* vh ед измерения 100vh = 100% высота*/
+    margin: 0; /* с помощью него картина не двигается*/
+}
+
+.new {
+    display: flex; /* эки рамканы бириктирет*/
+    /* justify-content: space-between; */
+}
+
+.new p {
+    border: 1px solid blue; /* текстин рамкасы */
+    padding: 7px; /* Паддинг для текста */
+    margin: 0; /* устундогу или астындагы текстин рамкасын бириктирипкоет*/
+  
+    box-sizing: border-box; /* равняет длину рамки */
+    min-width: 120px; /* Минимальная ширина для рамок */
+}

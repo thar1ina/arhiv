@@ -1,0 +1,14 @@
+
+.container{
+    width: 90%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.image {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Создает 4 равные колонки */
+    gap: 0px; /* Пространство между изображениями */
+}
+
+
